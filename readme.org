@@ -11,4 +11,5 @@
 ** 使用
     这个版本是非 mapreduce 实现，关于 mapreduce 是版本看 Luna。
 
+    前期处理文本需要用到的代码在 script 中，使用 python 来做的。
     把所有的文件导入到 idea 中运行即可。可能需要改文件的路径。
