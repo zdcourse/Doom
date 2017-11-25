@@ -1,0 +1,14 @@
+* Doom
+
+** 介绍
+    这个项目是实现了文本聚类算法，使用的是 Kmeans。
+
+    这里的文本是来自于 Lucifer 项目中的数据。前期需要做很多的处理。
+    包括中文数据的分词，计算相关度。使用的工具分别是 jieba 和 word2vec。
+
+    最后生成的文件为 word_file word_vec_file。
+
+** 使用
+    这个版本是非 mapreduce 实现，关于 mapreduce 是版本看 Luna。
+
+    把所有的文件导入到 idea 中运行即可。可能需要改文件的路径。
